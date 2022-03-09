@@ -13,8 +13,15 @@ function displayList(){
 
 
 function sortDescending(){
-
+ list.sort(a, b) => {
+   if (a > b) {
+     return-1;
+   }
+   else {
+     return1;
+   }
 } 
 
 sortDescending();
 displayList();
+
