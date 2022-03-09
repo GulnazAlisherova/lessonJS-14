@@ -13,14 +13,14 @@ function displayList(){
 
 
 function sortDescending(){
- list.sort(a, b) => {
+ list.sort((a, b) => {
    if (a > b) {
      return -1;
    }
    else {
      return 1;
    }
-} 
+  }); 
 
 sortDescending();
 displayList();
