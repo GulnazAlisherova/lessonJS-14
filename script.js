@@ -4,5 +4,6 @@ function displayList(){
    const div =  document.createElement('div');
    div.textContent = item;
    document.body.append(div);
-  })
+  });
 }
+displayList();
