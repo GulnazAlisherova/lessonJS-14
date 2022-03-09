@@ -23,7 +23,7 @@ function sortDescending() {
   }); 
 }
 function sortAscending(){
-  list.sort((a, b) => )
+  list.sort((a, b) => a < b )
 }
 
 displayList();
