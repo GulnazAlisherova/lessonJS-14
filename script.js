@@ -22,6 +22,9 @@ function sortDescending() {
    }
   }); 
 }
+function sortAscending(){
+  list.sort((a, b) => )
+}
 
 displayList();
 
