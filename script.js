@@ -8,10 +8,13 @@ function displayList(){
    main.append(div);
   });
 }
-displayList();
-displayList();
+// displayList();
+// displayList();
 
 
 function sortDescending(){
-  
+
 } 
+
+sortDescending();
+displayList();
