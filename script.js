@@ -12,4 +12,6 @@ displayList();
 displayList();
 
 
-function 
+function sortDescending(){
+  
+} 
