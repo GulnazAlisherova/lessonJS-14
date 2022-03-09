@@ -9,13 +9,13 @@ function displayList(){
   });
 }
 // displayList();
-// displayList();
+// displayList();//
 
 
 function sortDescending(){
  list.sort(a, b) => {
    if (a > b) {
-     return-1;
+     return -1;
    }
    else {
      return 1;
