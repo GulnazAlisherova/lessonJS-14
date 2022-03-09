@@ -18,7 +18,7 @@ function sortDescending(){
      return-1;
    }
    else {
-     return1;
+     return 1;
    }
 } 
 
