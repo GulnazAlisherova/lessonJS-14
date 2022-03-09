@@ -12,7 +12,7 @@ function displayList(){
 // displayList();//
 
 
-function sortDescending(){
+function sortDescending() {
  list.sort((a, b) => {
    if (a > b) {
      return -1;
@@ -21,7 +21,11 @@ function sortDescending(){
      return 1;
    }
   }); 
+}
 
-sortDescending();
 displayList();
 
+  document.querySelector('#sort-descending').addEventListener('click', function(){
+    sortDescending();
+    displayList();
+  });
